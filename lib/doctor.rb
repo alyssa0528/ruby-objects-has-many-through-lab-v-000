@@ -5,4 +5,12 @@ class Doctor
     @name = name
     @appointments = []
   end 
+  
+  def add_appointments(appointment)
+    @appointments << appointment 
+  end 
+  
+  def appointments 
+    @appointments 
+  end 
 end 
