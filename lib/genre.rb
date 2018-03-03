@@ -6,9 +6,11 @@ class Genre
     @songs = []
   end 
   
-  def songs 
-  end
-  
-  def add_song 
+  def add_song(song)
+    @songs = []
   end 
+  
+  def songs 
+    @songs
+  end
 end 
